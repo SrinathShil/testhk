@@ -20,7 +20,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	  @Before
 	  public void setUp() throws Exception {
 	   // driver = new FirefoxDriver();
-		  System.setProperty("webdriver.chrome.driver",
+		   System.setProperty("webdriver.chrome.driver",
 				  Thread.currentThread().getContextClassLoader().getResource("drivers/chromedriver.exe").getFile());
 		     driver = new ChromeDriver();
 	    baseUrl = "http://52.42.180.137:8087/";
